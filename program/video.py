@@ -152,7 +152,7 @@ async def vplay(c: Client, m: Message):
                 await loser.delete()
                 requester = f"[{m.from_user.first_name}](tg://user?id={m.from_user.id})"
                 await m.reply_photo(
-                    photo=f"{IMG_1}",
+                    photo=f"{https://te.legra.ph/file/e184200a18fd3fcd015a2.jpg}",
                     caption=f"💡 **Video sıraya alındı »** `{pos}`\n\n🏷 **Adı:** [{songname}]({link})\n💭 **Qrup ID:** `{chat_id}`\n🎧 {requester} tərəfindən.",
                     reply_markup=keyboard,
                 )
@@ -177,7 +177,7 @@ async def vplay(c: Client, m: Message):
                 await loser.delete()
                 requester = f"[{m.from_user.first_name}](tg://user?id={m.from_user.id})"
                 await m.reply_photo(
-                    photo=f"{IMG_2}",
+                    photo=f"{https://te.legra.ph/file/e184200a18fd3fcd015a2.jpg}",
                     caption=f"💡 **Video başladı. Xoş seyrlər.**\n\n🏷 **Adı:** [{songname}]({link})\n💭 **Qrup ID:** `{chat_id}`\n💡 **Status:** `izlənilir`\n🎧 {requester} tərəfindən.",
                     reply_markup=keyboard,
                 )
@@ -208,7 +208,7 @@ async def vplay(c: Client, m: Message):
                             await loser.delete()
                             requester = f"[{m.from_user.first_name}](tg://user?id={m.from_user.id})"
                             await m.reply_photo(
-                                photo=f"{IMG_1}",
+                                photo=f"{https://te.legra.ph/file/e184200a18fd3fcd015a2.jpg}",
                                 caption=f"💡 **Video sıraya alındı »** `{pos}`\n\n🏷 **Adı:** [{songname}]({url})\n💭 **Qrup ID:** `{chat_id}`\n🎧 {requester} tərəfindən.",
                                 reply_markup=keyboard,
                             )
@@ -263,7 +263,7 @@ async def vplay(c: Client, m: Message):
                             f"[{m.from_user.first_name}](tg://user?id={m.from_user.id})"
                         )
                         await m.reply_photo(
-                            photo=f"{IMG_1}",
+                            photo=f"{https://te.legra.ph/file/e184200a18fd3fcd015a2.jpg}",
                             caption=f"💡 **Video sıraya alındı »** `{pos}`\n\n🏷 **Adı:** [{songname}]({url})\n💭 **Qrup ID:** `{chat_id}`\n🎧 {requester} tərəfindən.",
                             reply_markup=keyboard,
                         )
@@ -283,7 +283,7 @@ async def vplay(c: Client, m: Message):
                             await loser.delete()
                             requester = f"[{m.from_user.first_name}](tg://user?id={m.from_user.id})"
                             await m.reply_photo(
-                                photo=f"{IMG_2}",
+                                photo=f"{https://te.legra.ph/file/e184200a18fd3fcd015a2.jpg}",
                                 caption=f"💡 **Video başladı. Xoş seyrlər.**\n\n🏷 **Adı:** [{songname}]({url})\n💭 **Qrup ID:** `{chat_id}`\n💡 **Status:** `izlənilir`\n🎧 {requester} tərəfindən.",
                                 reply_markup=keyboard,
                             )
