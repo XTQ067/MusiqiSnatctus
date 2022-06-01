@@ -57,7 +57,7 @@ async def start_(client: Client, message: Message):
 Botu qrupa əlavə edərək həm musiqi dinləyə həmdə video və ya kino izləyə bilərsiz.
 
 
- **Botun komandaları haqqında bilgi almaq üçün Komandalar butonuna basın!**
+ **Rəsmi Userbotumuz olan N Σ O N Userbotu qurmaq üçün @NeonSUP gəlin🤩!**
 """,
         reply_markup=InlineKeyboardMarkup(
             [
