@@ -135,7 +135,7 @@ async def play(c: Client, m: Message):
                 pos = add_to_queue(chat_id, songname, dl, link, "Audio", 0)
                 await suhu.delete()
                 await m.reply_photo(
-                    photo=f"{https://te.legra.ph/file/e184200a18fd3fcd015a2.jpg}",
+                    photo=f"{IMG_2}",
                     caption=f"💡 **Musiqi sıraya əlavə olundu »** `{pos}`\n\n🏷 **Ad:** [{songname}]({link})\n💭 **Qrup ID:** `{chat_id}`\n🎧 {m.from_user.mention()} tərəfindən.",
                     reply_markup=keyboard,
                 )
@@ -153,7 +153,7 @@ async def play(c: Client, m: Message):
                 await suhu.delete()
                 requester = f"[{m.from_user.first_name}](tg://user?id={m.from_user.id})"
                 await m.reply_photo(
-                    photo=f"{https://te.legra.ph/file/e184200a18fd3fcd015a2.jpg}",
+                    photo=f"{IMG_2}",
                     caption=f"💡 **Musiqi başladı.**\n\n🏷 **Ad:** [{songname}]({link})\n💭 **Qrup ID:** `{chat_id}`\n💡 **Status:** `Hal hazırda səsli söhbətdə dinlənilir`\n🎧  {requester} tərəfindən.",
                     reply_markup=keyboard,
                 )
@@ -185,7 +185,7 @@ async def play(c: Client, m: Message):
                             await suhu.delete()
                             requester = f"[{m.from_user.first_name}](tg://user?id={m.from_user.id})"
                             await m.reply_photo(
-                                photo=f"{https://te.legra.ph/file/e184200a18fd3fcd015a2.jpg}",
+                                photo=f"{IMG_2}",
                                 caption=f"💡 **Musiqi sıraya alındı »** `{pos}`\n\n🏷 **Ad:** [{songname}]({url})\n💭 **Qrup ID:** `{chat_id}`\n🎧 {requester} tərəfindən.",
                                 reply_markup=keyboard,
                             )
@@ -203,7 +203,7 @@ async def play(c: Client, m: Message):
                                 await suhu.delete()
                                 requester = f"[{m.from_user.first_name}](tg://user?id={m.from_user.id})"
                                 await m.reply_photo(
-                                    photo=f"{https://te.legra.ph/file/e184200a18fd3fcd015a2.jpg}",
+                                    photo=f"{IMG_2}",
                                     caption=f"💡 **Musiqi səsli söhbətdə başladı.**\n\n🏷 **Ad:** [{songname}]({url})\n💭 **Qrup ID:** `{chat_id}`\n💡 **Status:** `dinlənilir`\n🎧 {requester} tərəfindən.",
                                     reply_markup=keyboard,
                                 )
@@ -236,7 +236,7 @@ async def play(c: Client, m: Message):
                             f"[{m.from_user.first_name}](tg://user?id={m.from_user.id})"
                         )
                         await m.reply_photo(
-                            photo=f"{https://te.legra.ph/file/e184200a18fd3fcd015a2.jpg}",
+                            photo=f"{IMG_2}",
                             caption=f"💡 Musiqi sıraya alındı `{pos}`\n\n🏷 **Ad:** [{songname}]({url})\n💭 **Qrup ID:** `{chat_id}`\n🎧 {requester} tərəfindən...",
                             reply_markup=keyboard,
                         )
@@ -254,7 +254,7 @@ async def play(c: Client, m: Message):
                             await suhu.delete()
                             requester = f"[{m.from_user.first_name}](tg://user?id={m.from_user.id})"
                             await m.reply_photo(
-                                photo=f"{https://te.legra.ph/file/e184200a18fd3fcd015a2.jpg}",
+                                photo=f"{IMG_2}",
                                 caption=f"💡 **Musiqi səsli söhbətdə ifa olunur..**\n\n🏷 **Ad:** [{songname}]({url})\n💭 **Qrup ID:** `{chat_id}`\n💡 **Status:** `dinlənilir`\n🎧 {requester} tərəfindən...",
                                 reply_markup=keyboard,
                             )
@@ -354,7 +354,7 @@ async def stream(c: Client, m: Message):
                 await suhu.delete()
                 requester = f"[{m.from_user.first_name}](tg://user?id={m.from_user.id})"
                 await m.reply_photo(
-                    photo=f"{https://te.legra.ph/file/e184200a18fd3fcd015a2.jpg}",
+                    photo=f"{IMG_2}",
                     caption=f"💡 **Musiqi sıraya əlavə olundu »** `{pos}`\n\n💭 **Qrup ID:** `{chat_id}`\n🎧 {requester} tərəfindən...",
                     reply_markup=keyboard,
                 )
@@ -374,7 +374,7 @@ async def stream(c: Client, m: Message):
                         f"[{m.from_user.first_name}](tg://user?id={m.from_user.id})"
                     )
                     await m.reply_photo(
-                        photo=f"{https://te.legra.ph/file/e184200a18fd3fcd015a2.jpg}",
+                        photo=f"{IMG_2}",
                         caption=f"💡 **Musiqi başladı.**\n\n💭 **Qrup ID:** `{chat_id}`\n💡 **Status:** `dinlənilir`\n🎧 {requester} tərəfindən...",
                         reply_markup=keyboard,
                     )
