@@ -66,7 +66,7 @@ async def skip(client, m: Message):
             await m.reply("🗑️ **Sıradakılar təmizlənir**\n\n**• asistan səsli söhbətdən çıxdı.**")
         else:
             await m.reply_photo(
-                photo=f"{IMG_3}",
+                photo=f"{IMG_2}",
                 caption=f"⏭ **Skip olundu.**\n\n🏷 **Adı:** [{op[0]}]({op[1]})\n💭 **Qrup ID:** `{chat_id}`\n💡 **Status:** `dinlənilir`\n🎧 {m.from_user.mention()} tərəfindən.",
                 reply_markup=keyboard,
             )
