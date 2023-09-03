@@ -17,7 +17,7 @@ from config import (
 async def cbstart(_, query: CallbackQuery):
     await query.edit_message_text(
         f"""✨ **Xoş Gəldin [{query.message.chat.first_name}](tg://user?id={query.message.chat.id}) !**\n
-💭 **[{BOT_NAME}](https://t.me/LuksMusicRoBot) allows you to play music and video on groups through the new Telegram's video chats!**
+💭 **[{BOT_NAME}](https://t.TrendMusiqiBot) allows you to play music and video on groups through the new Telegram's video chats!**
 
 💡 **Üzərinə toxun və botun bütün əmrlərini və necə işlədiyini öyrənin😜 » 📚 Commands button!**
 
@@ -27,25 +27,25 @@ async def cbstart(_, query: CallbackQuery):
                 [
                     InlineKeyboardButton(
                         "➕ Qrupa əlavə et ➕",
-                        url=f"https://t.me/LuksMusicRoBot?startgroup=true",
+                        url=f"https://t.me/TrendMusiqiBot?startgroup=true",
                     )
                 ],
                 [InlineKeyboardButton("❓ Basic Guide", callback_data="cbhowtouse")],
                 [
                     InlineKeyboardButton("📚 Commands", callback_data="cbcmds"),
-                    InlineKeyboardButton("❤ Sahibim", url=f"https://t.me/ismayilzadevuqar"),
+                    InlineKeyboardButton("❤ Sahibim", url=f"https://t.me/ismayilzade075"),
                 ],
                 [
                     InlineKeyboardButton(
-                        "👥 Official Support Qrup", url=f"https://t.me/NeonSUP"
+                        "👥 Official Support Qrup", url=f"https://t.me/TrendSupportGroup"
                     ),
                     InlineKeyboardButton(
-                        "📣 Official Support Kanal", url=f"https://t.me/LuksProject"
+                        "📣 Official Support Kanal", url=f"https://t.me/TrendProject"
                     ),
                 ],
                 [
                     InlineKeyboardButton(
-                        "Help", url="https://t.me/ismayilzadevuqar"
+                        "Help", url="https://t.me/ismayilzade075"
                     )
                 ],
             ]
@@ -68,7 +68,7 @@ async def cbguides(_, query: CallbackQuery):
 
 📌 **İstifadəçi robotu video çata qoşulmayıbsa, video çatın artıq aktiv olub olmadığına əmin olun və ya /userbotleave yazın, sonra yenidən /userbotjoin yazın.**
 
-💡 **Bu botla bağlı əlavə suallarınız varsa, onu buradakı dəstək çatımda deyə bilərsiniz: @NeonSUP**
+💡 **Bu botla bağlı əlavə suallarınız varsa, onu buradakı dəstək çatımda deyə bilərsiniz: @TrendSupportGroup**
 
 ⚡ __Powered by {BOT_NAME} A.I__""",
         reply_markup=InlineKeyboardMarkup(
