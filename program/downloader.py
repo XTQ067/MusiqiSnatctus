@@ -60,7 +60,7 @@ def song(_, message):
             info_dict = ydl.extract_info(link, download=False)
             audio_file = ydl.prepare_filename(info_dict)
             ydl.process_info(info_dict)
-        rep = f"**🎧 @{bn} tərəfindən yükləndi.\n\n⚡ Kanalımıza abunə olmağı unutmayın @LuksProject**"
+        rep = f"**🎧 @{bn} tərəfindən yükləndi.\n\n⚡ Kanalımıza abunə olmağı unutmayın @TrendProject**"
         secmul, dur, dur_arr = 1, 0, duration.split(":")
         for i in range(len(dur_arr) - 1, -1, -1):
             dur += int(float(dur_arr[i])) * secmul
@@ -76,7 +76,7 @@ def song(_, message):
         )
         m.delete()
     except Exception as e:
-        m.edit("❌ Xəta. @NeonSUP da xətanı paylaşa bilərsiz.")
+        m.edit("❌ Xəta. @TrendSupporGroup da xətanı paylaşa bilərsiz.")
         print(e)
 
     try:
@@ -119,7 +119,7 @@ async def vsong(client, message):
             ytdl_data = ytdl.extract_info(link, download=True)
             file_name = ytdl.prepare_filename(ytdl_data)
     except Exception as e:
-        return await msg.edit(f"🚫 **Xəta:** {e}\n\n@NeonSUP qrupunda xətanı bildirə bilərsiz.")
+        return await msg.edit(f"🚫 **Xəta:** {e}\n\n@TrendSupportGroup qrupunda xətanı bildirə bilərsiz.")
     preview = wget.download(thumbnail)
     await msg.edit("📤 **Video qrupa göndərilir...**")
     await message.reply_video(
